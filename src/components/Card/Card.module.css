@@ -1,0 +1,110 @@
+.container {
+    /* border: 0px solid grey; */
+    background-color: darkgray;
+    border-radius: 10px;
+    width: 160px;
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+    &:hover {
+        box-shadow: 0 0 5px grey;
+    }
+}
+
+.container img {
+    width: 155px;
+    box-shadow: 0 5px 5px black;
+    margin-top: 10px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: end;
+}
+
+/* .buttonContainer button {
+    height: 20px;
+    width: 20px;
+    background: #333;
+    font-family: Consolas, Courier New, monospace;
+    border: solid #404C5D 1px;
+    font-size: 11px;
+    color: rgb(161, 161, 161);
+    border-radius: 5px;
+    background: linear-gradient(145deg, #2e2d2d, #212121);
+    box-shadow: 2px 2px 25px 3px rgba(29, 112, 14, 0.69);
+-webkit-box-shadow: 2px 2px 25px 3px rgba(48,207,23,0.69);
+-moz-box-shadow: 2px 2px 25px 3px rgba(48,207,23,0.69);
+
+  } */
+
+  .buttonContainer button {
+    height: 20px;
+    margin: 1px;
+    width: 20px;
+    background: #333;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: Consolas, Courier New, monospace;
+    border: solid #404C5D 1px;
+    font-size: 11px;
+    color: rgb(161, 161, 161);
+    -webkit-transition: 500ms;
+    transition: 500ms;
+    border-radius: 5px;
+    background: linear-gradient(145deg, #2e2d2d, #212121);
+    -webkit-box-shadow: -1px -5px 15px #41465B, 
+                 5px  5px 15px #41465B, 
+      inset      5px  5px 10px #212121, 
+      inset     -5px -5px 10px #212121;
+    box-shadow: -1px -5px 15px #41465B, 
+                 5px  5px 15px #41465B, 
+      inset      5px  5px 10px #212121, 
+      inset     -5px -5px 10px #212121;
+  }
+  
+  .buttonContainer button:hover {
+    -webkit-box-shadow: 1px 1px 13px #20232e,
+                      -1px -1px 13px #545b78;
+    box-shadow: 1px 1px 13px #20232e,
+               -1px -1px 13px #545b78;
+    color: #d6d6d6;
+    -webkit-transition: 500ms;
+    transition: 500ms;
+  }
+  
+  .buttonContainer button:active {
+    -webkit-box-shadow: 1px 1px 13px #20232e,
+                       -1px -1px 33px #545b78;
+    box-shadow: 1px 1px 13px #20232e,
+               -1px -1px 33px #545b78;
+    color: #d6d6d6;
+    -webkit-transition: 100ms;
+    transition: 100ms;
+  }
+  
+
+
+.dataContainer {
+    text-align: center;
+    padding: 8px;
+}
+
+h2 {
+    margin: 1px;
+    font-size: 15px;
+    color: darkslategray;
+    font-family: Consolas, Courier New, monospace;
+}
+
+.dataContainer h4 {
+    margin: 3px;
+    font-size: 11px;
+    color: darkslategray;
+    font-family: Consolas, Courier New, monospace;
+}

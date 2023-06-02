@@ -1,0 +1,26 @@
+.container {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin: auto;
+}
+
+.container input {
+    color: #8707ff;
+    border: 2px solid #8707ff;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: transparent;
+    max-width: 190px;
+   }
+   
+.container input:active {
+box-shadow: 2px 2px 15px #8707ff inset;
+}
+
+.container button {
+    border-radius: 10px;
+    height: 40px;
+    color: whitesmoke;
+    background-color: darkslategray;
+    box-shadow: 0 5px 5px black;
+}
